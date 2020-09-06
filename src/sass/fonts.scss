@@ -1,0 +1,19 @@
+@font-face {
+  font-family: '21 Cent';
+  src: local('21 Cent Black'), local('21-Cent-Black'),
+  url('../fonts/21Cent-Black.woff2') format('woff2'),
+  url('../fonts/21Cent-Black.woff') format('woff'),
+  url('../fonts/21Cent-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '21 Cent';
+  src: local('21 Cent Bold'), local('21-Cent-Bold'),
+  url('../fonts/21Cent-Bold.woff2') format('woff2'),
+  url('../fonts/21Cent-Bold.woff') format('woff'),
+  url('../fonts/21Cent-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

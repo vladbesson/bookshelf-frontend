@@ -1,0 +1,24 @@
+.page__main {
+  width: 1000px;
+  padding: 0 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.page__sidebar {
+  width: 280px;
+}
+
+.page__grid {
+  width: calc(100% - 280px);
+}
+
+.page__heading {
+  margin-top: 0;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "21Cent Bold";
+  text-decoration: none;
+}

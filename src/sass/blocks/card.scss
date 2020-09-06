@@ -1,0 +1,15 @@
+.card {
+  p {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+}
+
+.card__img {
+  height: 197px;
+  margin-bottom: 20px;
+  img {
+    max-height: 100%;
+    width: auto;
+  }
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Книжная полка</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__logo">
+      <a href="/">Книжная полка</a>
+    </div>
+
+    <div class="header__menu">
+      <a class="header__link" href="/books.html">Вход</a>
+    </div>
+  </header>
+
+  <main class="page__main">
+    <section class="page__sidebar sidebar">
+      <div class="sidebar__block">
+        <a class="button" href="/">Добавить книгу</a>
+      </div>
+
+      <div class="sidebar__block">
+        <h3 class="sidebar__header">Меню</h3>
+        <ul class="sidebar__list">
+          <li class="sidebar__list-item">
+            <a class="link">Книги</a>
+          </li>
+          <li class="sidebar__list-item">
+            <a class="link">Авторы</a>
+          </li>
+          <li class="sidebar__list-item">
+            <a class="link">Пользователи</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="page__grid">
+      <h2 class="page__heading">Все книги</h2>
+      <section class="grid">
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/1.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/2.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/3.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/4.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/5.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/6.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/7.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/8.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__img">
+              <img src="<%=require('./images/9.png').default %>">
+            </div>
+            <div class="card__content">
+              <p>Майк Монтейро</p>
+              <a class="link" href="/">Дизайн — это работа</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__copyright">
+      &copy; 2020, Планета Земля
+    </div>
+  </footer>
+
+  <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

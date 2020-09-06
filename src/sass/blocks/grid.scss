@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.grid__item {
+  width: calc(100% / 3 - 20px * 2/3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}

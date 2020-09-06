@@ -1,0 +1,30 @@
+.header {
+  width: 1000px;
+  padding: 30px 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header__logo {
+  a {
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 16px;
+    margin-bottom: 5px;
+    font-family: '21Cent Bold';
+    text-decoration: none;
+  }
+}
+
+.header__link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  border-bottom-style: dotted;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
